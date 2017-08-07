@@ -6,7 +6,16 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>Hi this is home!!</h2>
+        <h2>Hi! I'm Sophia. I'm interested in the power of art, code, mindfulness, and authenticity to create a better world.</h2>
+        <p>
+          I'm a full-stack developer with a passion for the front-end. My experience includes ____. I'm based in NYC.
+        </p>
+        <p>
+          ​I like to create—from coding to blogging to music-making, photography to guerilla sidewalk chalk street art. I also like to meditate, talk to strangers, and run lifestyle experiments.
+        </p>
+        <p>
+          Before becoming a software developer, I served in the Peace Corps, where I was teaching entrepreneurship to high school students in Nicaragua. Before that, I worked for IBM, management consulting for large corporations. I also hold a degree in economics from the University of Pennsylvania.
+        </p>
       </div>
     );
   }

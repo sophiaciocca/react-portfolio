@@ -11,6 +11,7 @@ const ProfileImage = styled.img`
 const HeaderDiv = styled.div`
   padding-top: 5vh;
   text-align: center;
+  font-family: 'Zilla Slab Highlight', sans-serif;
 `;
 
 const NavLink = styled(Link)`

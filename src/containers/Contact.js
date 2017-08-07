@@ -7,6 +7,8 @@ class Contact extends Component {
     return (
       <div>
         <h2>Hi this is Contact!!</h2>
+
+        <h4><a href = "/public/SophiaCioccaResume.pdf">Download my Resume</a></h4>
       </div>
     );
   }
