@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
 
-
 const FooterDiv = styled.div`
   position: absolute;
   right: 0;
@@ -11,6 +10,7 @@ const FooterDiv = styled.div`
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+  height: 200px;
 `;
 
 const SocialIconList = styled.ul`
@@ -33,7 +33,7 @@ class Footer extends Component {
                   <SocialIcon><a href="https://github.com/sophiaciocca" target="_blank"><i className="fa fa-github fa-fw fa-2x"></i></a></SocialIcon>
                   <SocialIcon><a href="https://medium.com/@sophiaciocca/latest" target="_blank"><i className="fa fa-medium fa-fw fa-2x" ></i></a></SocialIcon>
                   <SocialIcon><a href="https://twitter.com/sophiaciocca" target="_blank"><i className="fa fa-twitter fa-fw fa-2x" ></i></a></SocialIcon>
-                  <SocialIcon><a href="http://www.facebook.com/sophia.ciocca" target="_blank"> <i className="fa fa-facebook fa-fw fa-2x" ></i></a></SocialIcon>
+                  <SocialIcon><a href="http://www.facebook.com/sophia.ciocca" target="_blank"><i className="fa fa-facebook fa-fw fa-2x" ></i></a></SocialIcon>
                 </SocialIconList>
                 <br />
               </div>

@@ -6,4 +6,14 @@ injectGlobal`
   a {
     color: black;
   }
+
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    width: 50%;
+  }
 `;

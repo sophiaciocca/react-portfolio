@@ -32,6 +32,7 @@ class Header extends Component {
           <NavLink to='/life'>LIFE</NavLink>
           <NavLink to='/contact'>CONTACT</NavLink>
         </div>
+        <hr/>
       </HeaderDiv>
     );
   }
