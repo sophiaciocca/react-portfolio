@@ -17,6 +17,11 @@ const FormInput = styled.input`
   width: 100%;
 `
 
+const CommentInput = styled.textarea`
+  width: 100%;
+  height: 6em;
+`
+
 const EmailMe = styled.p`
   text-align: center;
   padding: 4%;
@@ -30,7 +35,7 @@ class Contact extends Component {
         <CenteredHeader>Get in touch with me!</CenteredHeader>
 
         <FormDiv>
-          <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST">
+          <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST" id="contactform">
             <div>
               <FormLabel>Name:</FormLabel>
               <FormInput type="text" name="name" />
@@ -41,9 +46,9 @@ class Contact extends Component {
             </div>
             <div>
               <FormLabel>Comment:</FormLabel>
-              <FormInput type="text" name="comment" />
+              <CommentInput name="comment" />
             </div>
-            <input type="submit" value="Send" />
+            <button type="submit">Submit</button>
           </form>
         </FormDiv>
 
