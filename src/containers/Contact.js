@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
 
+// const FormDiv =
+
 class Contact extends Component {
 
   render() {
@@ -11,21 +13,23 @@ class Contact extends Component {
       <div>
         <CenteredHeader>Get in touch with me!</CenteredHeader>
 
-        <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST">
-          <div>
-            <label>Name:</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label>Email:</label>
-            <input type="email" name="_replyto" />
-          </div>
-          <div>
-            <label>Comment:</label>
-            <input type="text" name="comment" />
-          </div>
-          <input type="submit" value="Send" />
-        </form>
+        <div>
+          <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST">
+            <div>
+              <label>Name:</label>
+              <input type="text" name="name" />
+            </div>
+            <div>
+              <label>Email:</label>
+              <input type="email" name="_replyto" />
+            </div>
+            <div>
+              <label>Comment:</label>
+              <input type="text" name="comment" />
+            </div>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
 
         <p>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank">sophiaciocca@gmail.com</a>.</p>
 
