@@ -4,7 +4,23 @@ import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
 
-// const FormDiv =
+const FormDiv = styled.div`
+  margin: 0 auto;
+  width: 40%;
+`
+
+const FormLabel = styled.label`
+  display: block;
+`
+
+const FormInput = styled.input`
+  width: 100%;
+`
+
+const EmailMe = styled.p`
+  text-align: center;
+  padding: 4%;
+`
 
 class Contact extends Component {
 
@@ -13,25 +29,26 @@ class Contact extends Component {
       <div>
         <CenteredHeader>Get in touch with me!</CenteredHeader>
 
-        <div>
+        <FormDiv>
           <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST">
             <div>
-              <label>Name:</label>
-              <input type="text" name="name" />
+              <FormLabel>Name:</FormLabel>
+              <FormInput type="text" name="name" />
             </div>
             <div>
-              <label>Email:</label>
-              <input type="email" name="_replyto" />
+              <FormLabel>Email:</FormLabel>
+              <FormInput type="email" name="_replyto" />
             </div>
             <div>
-              <label>Comment:</label>
-              <input type="text" name="comment" />
+              <FormLabel>Comment:</FormLabel>
+              <FormInput type="text" name="comment" />
             </div>
             <input type="submit" value="Send" />
           </form>
-        </div>
+        </FormDiv>
 
-        <p>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank">sophiaciocca@gmail.com</a>.</p>
+        <EmailMe>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank">sophiaciocca@gmail.com</a>.</EmailMe>
+
 
         <CenteredHeader><a href="/public/SophiaCioccaResume.pdf">Download my Resume</a></CenteredHeader>
       </div>
