@@ -3,14 +3,10 @@ import { Link } from 'react-router'
 import styled from 'styled-components';
 
 const FooterDiv = styled.div`
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #efefef;
   text-align: center;
-  height: 200px;
+  height: 150px;
 `;
 
 const SocialIconList = styled.ul`
