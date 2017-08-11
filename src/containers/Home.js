@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
 
+import { CenteredHeader } from './App.js'
+
 class Home extends Component {
   render() {
     return (
       <div>
-        <h4>Hi! I'm Sophia. I'm a software developer.</h4>
+        <CenteredHeader>Hi! I'm Sophia. I'm a software developer.</CenteredHeader>
         <p>
           I'm a full-stack developer with a passion for the front-end. My experience includes ____. I'm based in NYC.
         </p>
