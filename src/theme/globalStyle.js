@@ -21,4 +21,8 @@ injectGlobal`
   hr {
     width: 50%;
   }
+
+  ul {
+    padding: 0;
+  }
 `;

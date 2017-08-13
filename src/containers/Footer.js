@@ -29,7 +29,6 @@ class Footer extends Component {
                   <SocialIcon><a href="https://github.com/sophiaciocca" target="_blank"><i className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
                   <SocialIcon><a href="https://medium.com/@sophiaciocca/latest" target="_blank"><i className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
                   <SocialIcon><a href="https://twitter.com/sophiaciocca" target="_blank"><i className="fa fa-twitter fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="http://www.facebook.com/sophia.ciocca" target="_blank"><i className="fa fa-facebook fa-fw fa-2x" /></a></SocialIcon>
                 </SocialIconList>
                 <br />
               </div>

@@ -8,7 +8,50 @@ class Code extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Hi this is code!!</CenteredHeader>
+        <div>
+          <CenteredHeader>Skills:</CenteredHeader>
+          <div className="row">
+            <div className="col-lg-4">
+              <h5>Front-end:</h5>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML5</li>
+                <li>CSS3/Sass</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>jQuery</li>
+                <li>AJAX</li>
+                <li>Material-UI</li>
+              </ul>
+            </div>
+            <div className="col-lg-4">
+              <h5>Back-end:</h5>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>SQL/PostgreSQL</li>
+                <li>Sequelize</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+            <div className="col-lg-4">
+              <h5>Other:</h5>
+              <ul>
+                <li>Git</li>
+                <li>Webpack</li>
+                <li>JSON</li>
+                <li>Mocha/Chai</li>
+                <li>Agile development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <CenteredHeader>Recent work:</CenteredHeader>
+          <h4>Align</h4>
+          <p>Description here</p>
+
+        </div>
       </div>
     );
   }

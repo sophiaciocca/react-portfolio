@@ -24,8 +24,10 @@ class Header extends Component {
   render() {
     return (
       <HeaderDiv>
-        <ProfileImage src={require('../assets/confettiCropped.jpg')} alt='Sophia Ciocca'/>
-        <h1>SOPHIA CIOCCA</h1>
+        <Link to="/">
+          <ProfileImage src={require('../assets/confettiCropped.jpg')} alt='Sophia Ciocca'/>
+          <h1>SOPHIA CIOCCA</h1>
+        </Link>
         <div>
           <NavLink to='/'>ABOUT</NavLink>
           <NavLink to='/code'>CODE</NavLink>
