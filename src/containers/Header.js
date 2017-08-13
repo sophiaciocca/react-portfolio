@@ -8,15 +8,21 @@ const ProfileImage = styled.img`
   border-radius: 50%;
 `;
 
+const ProfileTitle = styled.h1`
+  color: black;
+`
+
 const HeaderDiv = styled.div`
   padding-top: 5vh;
   text-align: center;
   font-family: 'Zilla Slab Highlight', sans-serif;
+  color: black;
 `;
 
 const NavLink = styled(Link)`
   display: inline-flex;
   margin: 0 5px;
+  color: black;
 `
 
 
@@ -26,7 +32,7 @@ class Header extends Component {
       <HeaderDiv>
         <Link to="/">
           <ProfileImage src={require('../assets/confettiCropped.jpg')} alt='Sophia Ciocca'/>
-          <h1>SOPHIA CIOCCA</h1>
+          <ProfileTitle>SOPHIA CIOCCA</ProfileTitle>
         </Link>
         <div>
           <NavLink to='/'>ABOUT</NavLink>

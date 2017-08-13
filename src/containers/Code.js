@@ -11,7 +11,7 @@ class Code extends Component {
         <div>
           <CenteredHeader>Skills:</CenteredHeader>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Front-end:</h5>
               <ul>
                 <li>JavaScript</li>
@@ -24,7 +24,7 @@ class Code extends Component {
                 <li>Material-UI</li>
               </ul>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Back-end:</h5>
               <ul>
                 <li>Node.js</li>
@@ -34,7 +34,7 @@ class Code extends Component {
                 <li>Firebase</li>
               </ul>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Other:</h5>
               <ul>
                 <li>Git</li>

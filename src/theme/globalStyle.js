@@ -22,7 +22,14 @@ injectGlobal`
     width: 50%;
   }
 
-  ul {
-    padding: 0;
+  a {
+    text-decoration: none;
+    color: red;
   }
+
+  a:hover {
+    text-decoration: none;
+    color: goldenrod;
+  }
+
 `;
