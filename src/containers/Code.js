@@ -4,6 +4,70 @@ import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
 
+const PortRow = styled.div`
+  margin: 0;
+  padding-top: 50px;
+  display: block;
+`
+
+const CodeThumbnail = styled.img`
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+`;
+
+const PortTitleContainer = styled.div`
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap;
+  -webkit-justify-content: flex-end;
+  -webkit-align-content: stretch;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+`;
+
+const PortTitle = styled.h2`
+  flex: 1;
+  margin-bottom: 20px;
+  font-family: Gotham,Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+`;
+
+const PortButton = styled.a`
+  padding: 10px 15px;
+  background: 0 0;
+  border: 2px solid #00b7c7;
+  border-radius: 3px;
+  margin: 0 5px;
+  color: #00b7c7;
+  font-family: Gotham,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s ease;
+`;
+
+const PortDescription = styled.p`
+  display: block;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 1rem;
+  margin-bottom: 25px;
+  font-size: 1.1em;
+  color: #cbcbcb;
+`;
+
 class Code extends Component {
   render() {
     return (
@@ -40,16 +104,28 @@ class Code extends Component {
                 <li>Git</li>
                 <li>Webpack</li>
                 <li>JSON</li>
-                <li>Mocha/Chai</li>
+                <li>Mocha/Chai & Jasmine Testing</li>
                 <li>Agile development</li>
               </ul>
             </div>
           </div>
         </div>
+        <hr/>
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
-          <h4>Align</h4>
-          <p>Description here</p>
+          <PortRow>
+            <a href="https://align.fun/" target="_blank">
+              <CodeThumbnail src={require('../assets/AlignScreenshot.png')} />
+            </a>
+            <PortTitleContainer>
+              <PortTitle>Align</PortTitle>
+              <div>
+                <PortButton href='https://align.fun' target='_blank'>Demo</PortButton>
+                <PortButton href='https://github.com/align-capstone/align' target='_blank'>Code</PortButton>
+              </div>
+            </PortTitleContainer>
+            <PortDescription>Hello desription</PortDescription>
+          </PortRow>
 
         </div>
       </div>
