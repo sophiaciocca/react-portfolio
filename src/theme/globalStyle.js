@@ -6,6 +6,7 @@ injectGlobal`
 
   a {
     color: black;
+    transition: all .3s ease;
   }
 
   body {

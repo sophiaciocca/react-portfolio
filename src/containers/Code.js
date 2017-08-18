@@ -56,6 +56,10 @@ const PortButton = styled.a`
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s ease;
+  &:hover {
+    background: #00b7c7;
+    color: #f2f2f2;
+  }
 `;
 
 const PortDescription = styled.p`
@@ -66,6 +70,25 @@ const PortDescription = styled.p`
   margin-bottom: 25px;
   font-size: 1.1em;
   color: #cbcbcb;
+`;
+
+const UsedList = styled.ul`
+  list-style: none;
+  padding: 0;
+`;
+
+const UsedItem = styled.ul`
+  display: inline-block;
+  padding: 7px 7px 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #777;
+  background: #333;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .5px;
 `;
 
 class Code extends Component {
@@ -125,6 +148,9 @@ class Code extends Component {
               </div>
             </PortTitleContainer>
             <PortDescription>Hello desription</PortDescription>
+            <UsedList>
+              <UsedItem>React.js</UsedItem>
+            </UsedList>
           </PortRow>
 
         </div>

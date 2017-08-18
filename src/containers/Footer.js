@@ -20,6 +20,10 @@ const SocialIcon = styled.li`
 
 const FAIcon = styled.i`
   color: black;
+  &:hover {
+    transition: all .3s ease;
+    transform: scale(1.1) translateY(-5px);
+  }
 `;
 
 class Footer extends Component {
