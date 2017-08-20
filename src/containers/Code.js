@@ -157,7 +157,8 @@ class Code extends Component {
                 <PortButton href='https://github.com/align-capstone/align' target='_blank'>Code</PortButton>
               </div>
             </PortTitleContainer>
-            <PortDescription>Hello desription</PortDescription>
+            <PortDescription>My capstone project from the Grace Hopper Program, Align is a web application for setting and managing long-term goals with a beautiful and intuitive interface. It includes image uploading capability, resource cards to save helpful links, a rich text editor, and live updating using Firebase WebSocket integration.</PortDescription>
+            <PortDescription>I worked with two incredibly smart teammates to create Align, and you can read about our process building it <a href='https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c'>here</a>.</PortDescription>
             <UsedList>
               <UsedItem>React.js</UsedItem>
               <UsedItem>Firebase</UsedItem>

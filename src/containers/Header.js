@@ -23,6 +23,7 @@ const NavLink = styled(Link)`
   display: inline-flex;
   margin: 0 5px;
   color: black;
+  font-size: 16px;
 `
 
 
