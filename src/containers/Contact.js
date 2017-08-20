@@ -6,7 +6,7 @@ import { CenteredHeader } from './App.js'
 
 const FormDiv = styled.div`
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
 `
 
 const FormLabel = styled.label`
@@ -42,7 +42,7 @@ class Contact extends Component {
             </div>
             <div>
               <FormLabel>Email:</FormLabel>
-              <FormInput type="email" name="_replyto" />
+              <FormInput type="text" name="_replyto" />
             </div>
             <div>
               <FormLabel>Comment:</FormLabel>

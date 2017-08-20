@@ -7,6 +7,7 @@ import { CenteredHeader } from './App.js'
 const PortRow = styled.div`
   margin: 0;
   padding-top: 50px;
+  padding-bottom: 50px;
   display: block;
 `
 
@@ -18,7 +19,7 @@ const CodeThumbnail = styled.img`
 
 const PortTitleContainer = styled.div`
   position: relative;
-  width: 90%;
+  width: 96%;
   margin: 0 auto;
   -ms-flex-align: baseline;
   align-items: baseline;
@@ -64,9 +65,8 @@ const PortButton = styled.a`
 
 const PortDescription = styled.p`
   display: block;
-  width: 90%;
-  margin-top: 15px;
-  margin-left: 1rem;
+  width: 96%;
+  margin: 0 auto;
   margin-bottom: 25px;
   font-size: 1.1em;
   color: #cbcbcb;
@@ -75,6 +75,8 @@ const PortDescription = styled.p`
 const UsedList = styled.ul`
   list-style: none;
   padding: 0;
+  width: 96%;
+  margin: 0 auto;
 `;
 
 const UsedItem = styled.ul`
@@ -89,6 +91,14 @@ const UsedItem = styled.ul`
   font-size: 10px;
   font-weight: 500;
   letter-spacing: .5px;
+`;
+
+const Divider = styled.span`
+  display: block;
+  margin: 30px 0;
+  width: 100px;
+  height: 2px;
+  background-color: #00b7c7;
 `;
 
 class Code extends Component {
@@ -133,7 +143,7 @@ class Code extends Component {
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
@@ -150,6 +160,53 @@ class Code extends Component {
             <PortDescription>Hello desription</PortDescription>
             <UsedList>
               <UsedItem>React.js</UsedItem>
+              <UsedItem>Firebase</UsedItem>
+              <UsedItem>Material-UI</UsedItem>
+              <UsedItem>Victory.js</UsedItem>
+            </UsedList>
+          </PortRow>
+          <Divider />
+          <PortRow>
+            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+              <CodeThumbnail src={require('../assets/LimitlessLeggingsScreenshot.png')} />
+            </a>
+            <PortTitleContainer>
+              <PortTitle>OkCollab</PortTitle>
+              <div>
+                <PortButton href='#' target='_blank'>Demo</PortButton>
+                <PortButton href='https://github.com/sophiaciocca/ok-collab' target='_blank'>Code</PortButton>
+              </div>
+            </PortTitleContainer>
+            <PortDescription>Hello desription</PortDescription>
+            <UsedList>
+              <UsedItem>React.js</UsedItem>
+              <UsedItem>Redux</UsedItem>
+              <UsedItem>PostgreSQL</UsedItem>
+              <UsedItem>CSS</UsedItem>
+              <UsedItem>Node.JS</UsedItem>
+              <UsedItem>Express</UsedItem>
+            </UsedList>
+          </PortRow>
+          <Divider />
+          <PortRow>
+            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+              <CodeThumbnail src={require('../assets/LimitlessLeggingsScreenshot.png')} />
+            </a>
+            <PortTitleContainer>
+              <PortTitle>Limitless Leggings</PortTitle>
+              <div>
+                <PortButton href='https://limitless-leggings.herokuapp.com/' target='_blank'>Demo</PortButton>
+                <PortButton href='https://github.com/limitless-leggings/limitless-leggings' target='_blank'>Code</PortButton>
+              </div>
+            </PortTitleContainer>
+            <PortDescription>Hello desription</PortDescription>
+            <UsedList>
+              <UsedItem>React.js</UsedItem>
+              <UsedItem>Redux</UsedItem>
+              <UsedItem>PostgreSQL</UsedItem>
+              <UsedItem>CSS</UsedItem>
+              <UsedItem>Node.JS</UsedItem>
+              <UsedItem>Express</UsedItem>
             </UsedList>
           </PortRow>
 
