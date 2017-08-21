@@ -178,7 +178,8 @@ class Code extends Component {
                 <PortButton href='https://github.com/sophiaciocca/ok-collab' target='_blank'>Code</PortButton>
               </div>
             </PortTitleContainer>
-            <PortDescription>Hello desription</PortDescription>
+            <PortDescription>For my hackathon project at Grace Hopper, I spent three days building an app I always wished I'd had -- a social network for musicians to find other musicians to collaborate with. It's like OkCupid, except instead of dates it's for finding people to jam with and make tracks. View all users, view each user's profile and information, play their embedded Youtube videos, and see similar users in the sidebar.</PortDescription>
+            <PortDescription>OkCollab is responsive and works on devices of all sizes. You can watch me present it live <a href='https://www.youtube.com/watch?v=qyLoInHNjoc' target='_blank'>here</a>.</PortDescription>
             <UsedList>
               <UsedItem>React.js</UsedItem>
               <UsedItem>Redux</UsedItem>
@@ -200,7 +201,7 @@ class Code extends Component {
                 <PortButton href='https://github.com/limitless-leggings/limitless-leggings' target='_blank'>Code</PortButton>
               </div>
             </PortTitleContainer>
-            <PortDescription>Hello desription</PortDescription>
+            <PortDescription>Limitless Leggings is a full-stack e-commerce site built from scratch. It includes products filterable by category; working signup, login, and o-auth capabilities; and a working cart model built in PostgreSQL.</PortDescription>
             <UsedList>
               <UsedItem>React.js</UsedItem>
               <UsedItem>Redux</UsedItem>

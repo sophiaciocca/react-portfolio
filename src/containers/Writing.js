@@ -15,7 +15,7 @@ class Writing extends Component {
         <div>
           <CenteredHeader>I write about tech, life, and personal development.</CenteredHeader>
         </div>
-        <h6>Tech-related:</h6>
+        <h5>Tech-related:</h5>
         <ul>
           <li>
             <a href="https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c" target="_blank">How we built our first full-stack JavaScript web app in three weeks</a>
@@ -30,7 +30,7 @@ class Writing extends Component {
             <Date>April 10, 2017</Date>
           </li>
         </ul>
-        <h6>Other:</h6>
+        <h5>Other:</h5>
         <ul>
           <li>
             <a href="https://medium.com/personal-growth/mind-surgery-my-10-day-silent-meditation-retreat-92e420e5b6fa" target="_blank">"Mind-Surgery": My 10-Day Silent Meditation Retreat </a>
