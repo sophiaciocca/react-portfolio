@@ -4,11 +4,6 @@ injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-  a {
-    color: black;
-    transition: all .3s ease;
-  }
-
   body {
     height: 100%;
     margin: 0;
@@ -25,12 +20,13 @@ injectGlobal`
 
   a {
     text-decoration: none;
-    color: red;
+    color: #44344f;
+    transition: all .3s ease;
   }
 
   a:hover {
     text-decoration: none;
-    color: goldenrod;
+    color: #efefef;
   }
 
   input[type=text], textarea {

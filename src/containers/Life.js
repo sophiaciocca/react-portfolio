@@ -21,6 +21,10 @@ const LifeProjectBlurb = styled.div`
   margin: auto;
 `
 
+const LifeRow = styled.div`
+  margin: 20px -15px;
+`
+
 class Life extends Component {
   render() {
     return (
@@ -29,7 +33,7 @@ class Life extends Component {
           <CenteredHeader>I like to create, regardless of medium. Here are some of my current artistic projects:</CenteredHeader>
         </div>
         {/*Row 1*/}
-        <div className="row">
+        <LifeRow className="row">
           <div className="col-md-6 col-sm-12">
             <a href="http://sophiacioccaphotography.tumblr.com/" target="_blank">
               <LifeThumbnail src="http://i66.tinypic.com/2q80nia.jpg"/>
@@ -44,7 +48,7 @@ class Life extends Component {
             </a>
             <LifeProjectBlurb>I write poetry on the sidewalks, because street art makes the world a better place.</LifeProjectBlurb>
           </div>
-        </div>
+        </LifeRow>
         {/*Row 2*/}
         <div className="row">
           <div className="col-md-6 col-sm-12">

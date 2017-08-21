@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
 
+import { ColorScheme } from './App.js'
+
+console.log('colorscheme??', ColorScheme)
+
 const FooterDiv = styled.div`
-  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 0;
   background-color: #efefef;
   text-align: center;
   height: 150px;

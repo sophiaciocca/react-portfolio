@@ -158,7 +158,7 @@ class Code extends Component {
               </div>
             </PortTitleContainer>
             <PortDescription>My capstone project from the Grace Hopper Program, Align is a web application for setting and managing long-term goals with a beautiful and intuitive interface. It includes image uploading capability, resource cards to save helpful links, a rich text editor, and live updating using Firebase WebSocket integration.</PortDescription>
-            <PortDescription>I worked with two incredibly smart teammates to create Align, and you can read about our process building it <a href='https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c'>here</a>.</PortDescription>
+            <PortDescription>I worked with two incredibly smart teammates to create Align in three weeks. You can read about our process building it <a href='https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c'>here</a>.</PortDescription>
             <UsedList>
               <UsedItem>React.js</UsedItem>
               <UsedItem>Firebase</UsedItem>
@@ -168,8 +168,8 @@ class Code extends Component {
           </PortRow>
           <Divider />
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
-              <CodeThumbnail src={require('../assets/LimitlessLeggingsScreenshot.png')} />
+            <a href="#" target="_blank">
+              <CodeThumbnail src={require('../assets/OkCollabScreenshot.png')} />
             </a>
             <PortTitleContainer>
               <PortTitle>OkCollab</PortTitle>
