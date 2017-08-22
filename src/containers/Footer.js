@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
 
-import { ColorScheme } from './App.js'
+import { ColorScheme } from '../theme/styleConstants.js'
+// import * as AppExports from './App.js'
+// const ColorScheme = AppExports.ColorScheme;
 
+// console.log('appexports??', AppExports)
 console.log('colorscheme??', ColorScheme)
 
 const FooterDiv = styled.div`

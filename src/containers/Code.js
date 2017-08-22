@@ -168,13 +168,13 @@ class Code extends Component {
           </PortRow>
           <Divider />
           <PortRow>
-            <a href="#" target="_blank">
+            <a href="https://okcollab.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require('../assets/OkCollabScreenshot.png')} />
             </a>
             <PortTitleContainer>
               <PortTitle>OkCollab</PortTitle>
               <div>
-                <PortButton href='#' target='_blank'>Demo</PortButton>
+                <PortButton href='https://okcollab.herokuapp.com/' target='_blank'>Demo</PortButton>
                 <PortButton href='https://github.com/sophiaciocca/ok-collab' target='_blank'>Code</PortButton>
               </div>
             </PortTitleContainer>

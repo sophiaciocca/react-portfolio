@@ -4,4 +4,6 @@
 
 2) Deploy issues with OkCollab. Postgres 'stale file'?
 
-3)
+3) Resume link issue with react router; how to do local links?...
+
+4) RANDOM QUESTION: What else goes in 'render()' besides the 'return'? like, what's the difference between render & return?
