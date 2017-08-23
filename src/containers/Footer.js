@@ -3,16 +3,11 @@ import { Link } from 'react-router'
 import styled from 'styled-components';
 
 import { ColorScheme } from '../theme/styleConstants.js'
-// import * as AppExports from './App.js'
-// const ColorScheme = AppExports.ColorScheme;
-
-// console.log('appexports??', AppExports)
-console.log('colorscheme??', ColorScheme)
 
 const FooterDiv = styled.div`
   padding-top: 3rem;
   padding-bottom: 0;
-  background-color: #efefef;
+  background-color: ${ColorScheme.mainLight};
   text-align: center;
   height: 150px;
 `;
@@ -24,11 +19,12 @@ const SocialIconList = styled.ul`
 
 const SocialIcon = styled.li`
   display: inline;
+  color: red;
 `;
 
 const FAIcon = styled.i`
-  color: black;
   &:hover {
+    color: ${ColorScheme.third}
     transition: all .3s ease;
     transform: scale(1.1) translateY(-5px);
   }

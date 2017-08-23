@@ -1,4 +1,7 @@
 import { injectGlobal } from 'styled-components';
+import { ColorScheme } from './styleConstants';
+
+console.log('ColorScheme from globalStyle??', ColorScheme)
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
@@ -8,6 +11,7 @@ injectGlobal`
     height: 100%;
     margin: 0;
     padding: 0;
+    color: ${ColorScheme.mainText};
   }
 
   h4, h5, h6 {
@@ -20,13 +24,14 @@ injectGlobal`
 
   a {
     text-decoration: none;
-    color: #44344f;
+    font-weight: bold;
+    color: ${ColorScheme.primary};
     transition: all .3s ease;
   }
 
   a:hover {
     text-decoration: none;
-    color: #efefef;
+    color: ${ColorScheme.third};
   }
 
   input[type=text], textarea {
