@@ -98,7 +98,7 @@ const Divider = styled.span`
   margin: 30px 0;
   width: 100px;
   height: 2px;
-  background-color: #00b7c7;
+  background-color: ${ColorScheme.secondary};
 `;
 
 class Code extends Component {
