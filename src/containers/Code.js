@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
+import { ColorScheme } from '../theme/styleConstants';
 
 const PortRow = styled.div`
   margin: 0;
@@ -49,17 +50,18 @@ const PortTitle = styled.h2`
 const PortButton = styled.a`
   padding: 10px 15px;
   background: 0 0;
-  border: 2px solid #00b7c7;
+  border: 2px solid ${ColorScheme.secondary};
   border-radius: 3px;
   margin: 0 5px;
-  color: #00b7c7;
+  color: ${ColorScheme.secondary};
   font-family: Gotham,Helvetica,Arial,sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s ease;
   &:hover {
-    background: #00b7c7;
-    color: #f2f2f2;
+    background: ${ColorScheme.primary};
+    color: #fff;
+    border-color: ${ColorScheme.primary};
   }
 `;
 
@@ -68,8 +70,6 @@ const PortDescription = styled.p`
   width: 96%;
   margin: 0 auto;
   margin-bottom: 25px;
-  font-size: 1.1em;
-  color: #cbcbcb;
 `;
 
 const UsedList = styled.ul`

@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sophiaciocca.github.io/react-portfolio",
+  "homepage": "http://sophiaciocca.com",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.6.1",
