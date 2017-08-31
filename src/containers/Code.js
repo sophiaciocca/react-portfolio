@@ -84,8 +84,8 @@ const UsedItem = styled.ul`
   padding: 7px 7px 5px;
   margin-right: 5px;
   margin-bottom: 10px;
-  color: #777;
-  background: #333;
+  color: #fff;
+  background: ${ColorScheme.secondary};
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 10px;

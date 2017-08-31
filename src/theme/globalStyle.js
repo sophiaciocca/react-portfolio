@@ -25,11 +25,14 @@ injectGlobal`
     font-weight: bold;
     color: ${ColorScheme.secondary};
     transition: all .3s ease;
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: ${ColorScheme.primary};
+    &:hover {
+      text-decoration: none;
+      color: ${ColorScheme.primary};
+    }
+    &:focus {
+      text-decoration: none;
+      color: ${ColorScheme.primary};
+    }
   }
 
   input[type=text], textarea {
