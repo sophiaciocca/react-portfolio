@@ -93,14 +93,6 @@ const UsedItem = styled.ul`
   letter-spacing: .5px;
 `;
 
-const Divider = styled.span`
-  display: block;
-  margin: 30px 0;
-  width: 100px;
-  height: 2px;
-  background-color: ${ColorScheme.secondary};
-`;
-
 class Code extends Component {
   render() {
     return (
@@ -166,7 +158,7 @@ class Code extends Component {
               <UsedItem>Victory.js</UsedItem>
             </UsedList>
           </PortRow>
-          <Divider />
+          <hr />
           <PortRow>
             <a href="https://okcollab.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require('../assets/OkCollabScreenshot.png')} />
@@ -189,7 +181,7 @@ class Code extends Component {
               <UsedItem>Express</UsedItem>
             </UsedList>
           </PortRow>
-          <Divider />
+          <hr />
           <PortRow>
             <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require('../assets/LimitlessLeggingsScreenshot.png')} />
