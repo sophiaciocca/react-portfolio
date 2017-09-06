@@ -47,7 +47,7 @@ const PortTitle = styled.h2`
   text-transform: uppercase;
 `;
 
-const PortButton = styled.a`
+export const PortButton = styled.a`
   padding: 10px 15px;
   background: 0 0;
   border: 2px solid ${ColorScheme.secondary};

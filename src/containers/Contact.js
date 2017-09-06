@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
+import { PortButton } from './Code.js'
 
 const FormDiv = styled.div`
   margin: 0 auto;
@@ -55,7 +56,7 @@ class Contact extends Component {
         <EmailMe>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank"><strong>sophiaciocca@gmail.com</strong></a>.</EmailMe>
 
         <hr/>
-        {/*<CenteredHeader><a href="public/SophiaCioccaResume.pdf">Download my Resume</a></CenteredHeader>*/}
+        <CenteredHeader><PortButton href="https://drive.google.com/file/d/0B-Wn-csD32OpaXJaU09xR0tGMUU/view" target="_blank">Download My Resume</PortButton></CenteredHeader>
       </div>
     );
   }
