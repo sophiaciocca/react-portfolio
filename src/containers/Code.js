@@ -104,10 +104,10 @@ class Code extends Component {
               <h5>Front-end:</h5>
               <ul>
                 <li>JavaScript (ES6)</li>
-                <li>HTML5</li>
-                <li>CSS3/Sass</li>
                 <li>React</li>
                 <li>Redux</li>
+                <li>HTML5</li>
+                <li>CSS3/Sass</li>
                 <li>jQuery</li>
                 <li>AJAX</li>
                 <li>Material-UI</li>
