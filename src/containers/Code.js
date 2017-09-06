@@ -103,7 +103,7 @@ class Code extends Component {
             <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Front-end:</h5>
               <ul>
-                <li>JavaScript</li>
+                <li>JavaScript (ES6)</li>
                 <li>HTML5</li>
                 <li>CSS3/Sass</li>
                 <li>React</li>
