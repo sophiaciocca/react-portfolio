@@ -22,7 +22,7 @@ class Writing extends Component {
             <Date>August 9, 2017</Date>
           </li>
           <li>
-            <a href="https://medium.com/ladies-storm-hackathons/follow-this-curriculum-to-learn-full-stack-javascript-in-six-weeks-c0f100426902" target="_blank">Full-Stack JavaScript in Six Weeks: A Curriculum Guide (What I learned in Coding Bootcamp, Par I)</a>
+            <a href="https://medium.com/ladies-storm-hackathons/follow-this-curriculum-to-learn-full-stack-javascript-in-six-weeks-c0f100426902" target="_blank">Full-Stack JavaScript in Six Weeks: A Curriculum Guide (What I learned in Coding Bootcamp, Part I)</a>
             <Date>June 6, 2017</Date>
           </li>
           <li>
