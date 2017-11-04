@@ -19,33 +19,38 @@ const CodeThumbnail = styled.img`
 `;
 
 const PortTitleContainer = styled.div`
-  position: relative;
-  width: 96%;
-  margin: 0 auto;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  display: -webkit-flex;
-  -webkit-flex-wrap: nowrap;
-  -webkit-justify-content: flex-end;
-  -webkit-align-content: stretch;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
+  padding: 0;
 `;
+// const PortTitleContainer = styled.div`
+//   position: relative;
+//   width: 96%;
+//   margin: 0 auto;
+//   -ms-flex-align: baseline;
+//   align-items: baseline;
+//   display: -webkit-flex;
+//   -webkit-flex-wrap: nowrap;
+//   -webkit-justify-content: flex-end;
+//   -webkit-align-content: stretch;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -ms-flex-wrap: nowrap;
+//   flex-wrap: nowrap;
+//   -ms-flex-direction: row;
+//   flex-direction: row;
+//   -ms-flex-pack: end;
+//   justify-content: flex-end;
+//   -ms-flex-line-pack: stretch;
+//   align-content: stretch;
+// `;
 
 const PortTitle = styled.h2`
-  flex: 1;
-  margin-bottom: 20px;
-  font-family: Gotham,Helvetica,Arial,sans-serif;
   text-transform: uppercase;
 `;
+
+// flex: 1;
+// margin-bottom: 20px;
+// font-family: Gotham,Helvetica,Arial,sans-serif;
+// text-transform: uppercase;
 
 export const PortButton = styled.a`
   padding: 10px 15px;
