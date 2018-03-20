@@ -4,9 +4,9 @@
 
 Hi! I'm Sophia. I'm a full-stack software developer based in NYC.
 
-I'm comfortable throughout the stack, but my passion lies in the front end, at the intersection of code and design. I strive to create software that not only functions efficiently under the hood, but also provides intuitive, beautiful user experiences.
+I'm comfortable throughout the stack, but my passion lies in the front end, at the intersection of code and design. I currently build software for the newsroom at the New York Times.
 
-I currently work as a teaching fellow at Fullstack Academy, and am seeking a new full-time opportunity as I come upon the end of my fellowship. Before becoming a software developer, I served in the Peace Corps, and before that, I worked for IBM, management consulting for Fortune 100 companies. I also hold a degree in economics from the University of Pennsylvania.
+Previously, I've taught code to women at the Grace Hopper Program, served in the Peace Corps, and management consulted for Fortune 100 companies. I also hold a degree in economics from the University of Pennsylvania.
 
 ---
 
