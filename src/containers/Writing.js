@@ -17,6 +17,14 @@ class Writing extends Component {
         <h5>Tech-related:</h5>
         <ul>
           <li>
+            <a href="https://hackernoon.com/how-i-landed-my-post-bootcamp-software-developer-job-in-just-seven-weeks-7b213c1bb867" target="_blank">How I landed my post-bootcamp software developer job in just seven weeks</a>
+            <Date>November 1, 2017</Date>
+          </li>
+          <li>
+            <a href="https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe" target="_blank">Spotify’s Discover Weekly: How machine learning finds your new music</a>
+            <Date>October 10, 2017 (#3 on Hackernews!)</Date>
+          </li>
+          <li>
             <a href="https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c" target="_blank">How we built our first full-stack JavaScript web app in three weeks</a>
             <Date>August 9, 2017</Date>
           </li>
