@@ -118,9 +118,10 @@ class Code extends Component {
                 <li>React</li>
                 <li>Redux</li>
                 <li>HTML5</li>
-                <li>CSS3/Sass</li>
-                <li>jQuery</li>
+                <li>CSS3/Sass/Emotion</li>
                 <li>AJAX</li>
+                <li>jQuery</li>
+                <li>Jest</li>
                 <li>Material-UI</li>
               </ul>
             </div>
@@ -128,10 +129,10 @@ class Code extends Component {
               <h5>Back-end:</h5>
               <ul>
                 <li>Node.js</li>
+                <li>Firestore/Firebase</li>
+                <li>Google Cloud Functions</li>
                 <li>Express</li>
                 <li>SQL/PostgreSQL</li>
-                <li>Sequelize</li>
-                <li>Firebase</li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
@@ -140,7 +141,6 @@ class Code extends Component {
                 <li>Git</li>
                 <li>Webpack</li>
                 <li>JSON</li>
-                <li>Mocha/Chai & Jasmine Testing</li>
                 <li>Agile development</li>
               </ul>
             </div>
