@@ -150,14 +150,41 @@ class Code extends Component {
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
-            <a href="https://align.fun/" target="_blank">
+            <a href="https://open.nytimes.com/building-a-text-editor-for-a-digital-first-newsroom-f1cb8367fc21" target="_blank">
+              <CodeThumbnail src={require("../assets/oakgif.gif")} />
+            </a>
+            <PortAllText>
+              <PortTitle>The New York Times - Oak</PortTitle>
+              <PortDescription>
+                Since November 2017, I've been working full-time on the Publishing team at the New York Times, creating an advanced text editor and adjacent technologies for the newsroom. This GIF demonstrates our newsroom-specific track-changes ("version diffing") feature -- one of dozens (hundreds?) that makes this software special.
+              </PortDescription>
+              <PortDescription>
+                You can read more about Oak in my article on the Times Open blog: <br/>
+                <a href="https://open.nytimes.com/building-a-text-editor-for-a-digital-first-newsroom-f1cb8367fc21" target="_blank">
+                  Building a Text Editor For a Digital-First Newsroom
+                </a>
+              </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>Firestore</UsedItem>
+                <UsedItem>Cloud Functions</UsedItem>
+                <UsedItem>Jest</UsedItem>
+                <UsedItem>ProseMirror</UsedItem>
+                <UsedItem>Sass</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr />
+          <PortRow>
+            <a href="https://align-a0b08.web.app/" target="_blank">
               <CodeThumbnail src={require("../assets/AlignScreenshot.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Align</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="https://align.fun" target="_blank">
+                  <PortButton href="https://align-a0b08.web.app" target="_blank">
                     Demo
                 </PortButton>
                   <PortButton
@@ -174,7 +201,7 @@ class Code extends Component {
                 beautiful and intuitive interface. It includes image uploading
                 capability, resource cards to save helpful links, a rich text
                 editor, and live updating using Firebase WebSocket integration.
-            </PortDescription>
+              </PortDescription>
               <PortDescription>
                 I worked with two incredibly smart teammates to create Align in
               three weeks. You can read about our process building it{" "}
@@ -192,7 +219,7 @@ class Code extends Component {
           </PortRow>
           <hr />
           <PortRow>
-            <a href="https://okcollab.herokuapp.com/" target="_blank">
+            <a href="https://github.com/sophiaciocca/ok-collab" target="_blank">
               <CodeThumbnail
                 src={require("../assets/OkCollabScreenshot.png")}
               />
@@ -201,12 +228,6 @@ class Code extends Component {
               <PortTitleContainer>
                 <PortTitle>OkCollab</PortTitle>
                 <PortButtonContainer>
-                  <PortButton
-                    href="https://okcollab.herokuapp.com/"
-                    target="_blank"
-                  >
-                    Demo
-                </PortButton>
                   <PortButton
                     href="https://github.com/sophiaciocca/ok-collab"
                     target="_blank"
@@ -246,7 +267,7 @@ class Code extends Component {
           </PortRow>
           <hr />
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+            <a href="https://github.com/limitless-leggings/limitless-leggings" target="_blank">
               <CodeThumbnail
                 src={require("../assets/LimitlessLeggingsScreenshot.png")}
               />
@@ -255,12 +276,6 @@ class Code extends Component {
               <PortTitleContainer>
                 <PortTitle>Limitless Leggings</PortTitle>
                 <PortButtonContainer>
-                  <PortButton
-                    href="https://limitless-leggings.herokuapp.com/"
-                    target="_blank"
-                  >
-                    Demo
-                </PortButton>
                   <PortButton
                     href="https://github.com/limitless-leggings/limitless-leggings"
                     target="_blank"
