@@ -47,7 +47,7 @@ class Footer extends Component {
             </div>
             <div className="row" id="copyright" style={{ margin: 0 }}>
               <div className="col-lg-12">
-                <p className="small">© 2017 Sophia Ciocca</p>
+                <p className="small">© 2019 Sophia Ciocca</p>
               </div>
             </div>
       </FooterDiv>
