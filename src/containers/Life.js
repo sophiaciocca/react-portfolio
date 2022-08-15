@@ -35,14 +35,14 @@ class Life extends Component {
         <LifeRow className="row">
           <div className="col-md-6 col-sm-12">
             <a href="http://sophiacioccaphotography.tumblr.com/" target="_blank">
-              <LifeThumbnail src="http://i66.tinypic.com/2q80nia.jpg"/>
+              <LifeThumbnail src={require('../assets/photoguy.jpg')}/>
               <LifeHeader>my photography</LifeHeader>
             </a>
             <LifeProjectBlurb>Here's where i keep some of my photographs. Check it out!</LifeProjectBlurb>
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="https://www.instagram.com/sidewalk_poetry/" target="_blank">
-              <LifeThumbnail src="http://i65.tinypic.com/2rcbtb6.jpg"/>
+              <LifeThumbnail src={require('../assets/sidewalkpoetry.jpg')}/>
               <LifeHeader>sidewalk_poetry</LifeHeader>
             </a>
             <LifeProjectBlurb>I write poetry on the sidewalks, because street art makes the world a better place.</LifeProjectBlurb>
@@ -52,14 +52,14 @@ class Life extends Component {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <a href="http://artandfragments.tumblr.com/" target="_blank">
-              <LifeThumbnail src="http://i65.tinypic.com/ezh3eh.jpg"/>
+              <LifeThumbnail src={require('../assets/artandfragments.jpg')}/>
               <LifeHeader>art and fragments</LifeHeader>
             </a>
             <LifeProjectBlurb>I'm into creative writing. Here's where i put all of my unfinished poetic tidbits. And hey -- all art is unfinished, right?</LifeProjectBlurb>
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="https://www.youtube.com/channel/UChfrVcFHC-mfoqrJHuOYt-Q" target="_blank">
-              <LifeThumbnail src="http://i64.tinypic.com/16lw755.jpg"/>
+              <LifeThumbnail src={require('../assets/jennysing.jpg')}/>
               <LifeHeader>jenny & sophia sing</LifeHeader>
             </a>
             <LifeProjectBlurb>My best friend and i make acoustic covers of songs. Listen to us here!</LifeProjectBlurb>

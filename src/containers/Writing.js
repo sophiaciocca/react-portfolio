@@ -16,6 +16,22 @@ class Writing extends Component {
         </div>
         <h5>Tech-related:</h5>
         <ul>
+        <li>
+            <a href="https://open.nytimes.com/we-built-collaborative-editing-for-our-newsrooms-cms-here-s-how-415618a3ec49" target="_blank">We Built Collaborative Editing for Our Newsroom’s CMS. Here’s How.</a>
+            <Date>August 1, 2019 - Co-authored with Jeff Sisson</Date>
+          </li>
+        <li>
+            <a href="https://open.nytimes.com/building-a-text-editor-for-a-digital-first-newsroom-f1cb8367fc21" target="_blank">Building a Text Editor for a Digital-First Newsroom</a>
+            <Date>April 12, 2018</Date>
+          </li>
+          <li>
+            <a href="https://hackernoon.com/how-i-landed-my-post-bootcamp-software-developer-job-in-just-seven-weeks-7b213c1bb867" target="_blank">How I landed my post-bootcamp software developer job in just seven weeks</a>
+            <Date>November 1, 2017</Date>
+          </li>
+          <li>
+            <a href="https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe" target="_blank">Spotify’s Discover Weekly: How machine learning finds your new music</a>
+            <Date>October 10, 2017 (#3 on Hackernews!)</Date>
+          </li>
           <li>
             <a
               href="https://hackernoon.com/how-i-landed-my-post-bootcamp-software-developer-job-in-just-seven-weeks-7b213c1bb867"
