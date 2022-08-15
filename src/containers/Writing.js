@@ -16,11 +16,11 @@ class Writing extends Component {
         </div>
         <h5>Tech-related:</h5>
         <ul>
-        <li>
+          <li>
             <a href="https://open.nytimes.com/we-built-collaborative-editing-for-our-newsrooms-cms-here-s-how-415618a3ec49" target="_blank">We Built Collaborative Editing for Our Newsroom’s CMS. Here’s How.</a>
             <Date>August 1, 2019 - Co-authored with Jeff Sisson</Date>
           </li>
-        <li>
+          <li>
             <a href="https://open.nytimes.com/building-a-text-editor-for-a-digital-first-newsroom-f1cb8367fc21" target="_blank">Building a Text Editor for a Digital-First Newsroom</a>
             <Date>April 12, 2018</Date>
           </li>
@@ -84,6 +84,24 @@ class Writing extends Component {
         </ul>
         <h5>Other:</h5>
         <ul>
+        <li>
+            <a
+              href="https://medium.com/@sophiaciocca/the-key-to-curing-binge-eating-isnt-what-you-think-cd29101c1d2"
+              target="_blank"
+            >
+              The Key to Curing Binge Eating Isn't What You Think{" "}
+            </a>
+            <Date>July 15, 2020</Date>
+          </li>
+        <li>
+            <a
+              href="https://medium.com/personal-growth/real-self-love-on-finally-cultivating-an-intimate-relationship-with-my-heart-c0cb56590821"
+              target="_blank"
+            >
+              “Real self-love”: On finally cultivating an intimate relationship with my heart{" "}
+            </a>
+            <Date>August 27, 2018</Date>
+          </li>
           <li>
             <a
               href="https://medium.com/personal-growth/mind-surgery-my-10-day-silent-meditation-retreat-92e420e5b6fa"

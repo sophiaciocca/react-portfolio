@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import styled from 'styled-components';
 
-const ProfileImage = styled.img`
-  width: 12em;
-  height: 12em;
-  border-radius: 50%;
-`;
-
 const ProfileTitle = styled.h1`
   color: black;
 `
@@ -32,7 +26,6 @@ class Header extends Component {
     return (
       <HeaderDiv>
         <Link to="/">
-          <ProfileImage src={require('../assets/confettiCropped.jpg')} alt='Sophia Ciocca'/>
           <ProfileTitle>SOPHIA CIOCCA</ProfileTitle>
         </Link>
         <div>

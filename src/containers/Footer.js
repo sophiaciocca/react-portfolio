@@ -40,14 +40,13 @@ class Footer extends Component {
                   <SocialIcon><a href="http://www.linkedin.com/in/sophiaciocca" target="_blank"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
                   <SocialIcon><a href="https://github.com/sophiaciocca" target="_blank"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
                   <SocialIcon><a href="https://medium.com/@sophiaciocca/latest" target="_blank"><FAIcon className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://twitter.com/sophiaciocca" target="_blank"><FAIcon className="fa fa-twitter fa-fw fa-2x" /></a></SocialIcon>
                 </SocialIconList>
                 <br />
               </div>
             </div>
             <div className="row" id="copyright" style={{ margin: 0 }}>
               <div className="col-lg-12">
-                <p className="small">© 2019 Sophia Ciocca</p>
+                <p className="small">© 2022 Sophia Ciocca</p>
               </div>
             </div>
       </FooterDiv>
