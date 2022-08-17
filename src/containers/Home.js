@@ -6,16 +6,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Hi! I'm Sophia. I'm a software developer working remotely in the US.</CenteredHeader>
+        <CenteredHeader>Hi! I'm Sophia. I believe that connection to our bodies can save the world.</CenteredHeader>
         <p>
-          I've worked throughout the stack, but I especially love building React UI. I've most recently worked at Spotify and The New York Times.
+          I spent my 20s working in big corporations and on my computer, leaning into my mental gifts, and neglecting my biggest gifts of all: my intuition, my capacity for empathy, my passion, and my visceral connection to my body.
         </p>
         <p>
-          ​Outside of code, I like to create in other ways. From <a href="https://medium.com/@sophiaciocca/latest" target="_blank">blogging</a> to <a href="https://www.youtube.com/channel/UChfrVcFHC-mfoqrJHuOYt-Q" target="_blank">music-making</a>, <a href="http://sophiacioccaphotography.tumblr.com/" target="_blank">photography</a> to <a href="https://www.instagram.com/sidewalk_poetry/" target="_blank">guerilla sidewalk chalk street art</a>, I'm always trying new ways of expressing myself. I also like to meditate, talk to strangers, and run lifestyle experiments.
+          ​I like to create and consider myself an artist of life. I'm a musician currently working on my first album.
         </p>
         <p>
-
-        Previously, I've <a href="https://www.gracehopper.com/" target="_blank">taught code to women</a>, served in the Peace Corps, and management consulted for Fortune 100 companies. I also hold a degree in economics from the University of Pennsylvania.
+        In previous iterations of my life, I <a href="https://www.gracehopper.com/" target="_blank">taught code to women</a>, served in the Peace Corps, and management consulted for Fortune 100 companies. I also hold a B.A. from the University of Pennsylvania.
         </p>
       </div>
     );
