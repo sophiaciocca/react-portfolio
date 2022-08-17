@@ -37,8 +37,6 @@ class Footer extends Component {
               <div className="col-lg-12">
                 <SocialIconList>
                   <SocialIcon><a href="mailto:sophiaciocca@gmail.com" target="_blank"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="http://www.linkedin.com/in/sophiaciocca" target="_blank"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://github.com/sophiaciocca" target="_blank"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
                   <SocialIcon><a href="https://medium.com/@sophiaciocca/latest" target="_blank"><FAIcon className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
                 </SocialIconList>
                 <br />
